@@ -6,6 +6,6 @@
         public string Name { get; set; }
         public double Price { get; set; }
         public int categoryId { get; set; }
-        public Category category { get; set; }
+        public Category category { get; set;}
     }
 }
